@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Tools Curator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path d='M6.002 0L8 2l1.998-2H6.002zM9 16l2.001-2H9v2zm2.001-2L8 16l2.001-2zm2-2L8 18l3.001-2H13zm1.999-4L8 14l4-2 2.999-2zm-6.002 6L4 12l1.998 2zm4-4L8 14l1.998-2zm-4 0L8 10 5.998 8zM4 8l2.001 2H4V8zm2.001 2L8 8l2.001 2zm2.998-4L8 10 5.998 6zm-4.002 0L8 6 3.998 2zm6.002 0L8 6l3.001-2H6.002zM1.998 6L8 6 1.998 12zm6.001 6l-6.001-6h12.002z'/></svg>" type="image/svg+xml">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="site-wrapper">  
+  <div class="main-content">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="https://aitoolscurator.netlify.app/">AI Tools Curator</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://aitoolscurator.netlify.app/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://linktr.ee/jackiewwilson">Creators</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container mt-5">
+
+      <input type="text" id="search-input" placeholder="Search links..." class="mb-4">
+      <button id="dark-mode-toggle">Toggle Dark Mode</button>
+        <div class="row">
+            <h3 class="category-header">Large Language Models</h3>
+            <div class="d-flex flex-wrap">
+                <a href="https://chat.openai.com/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">ChatGPT</h5>
+                        <p class="card-text text-dark"> A large language model developed by OpenAI, based on the GPT (Generative Pre-trained Transformer) architecture. It is capable of generating human-like responses to natural language input, making it a powerful tool for conversational AI applications.</p>
+                    </div>
+                </a>
+                <a href="https://bard.google.com/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">Bard (Google)</h5>
+                        <p class="card-text text-dark">Bard, your creative and helpful collaborator. I have limitations and will not always get it right, but your feedback will help me improve.</p>
+                    </div>
+                    <a href="https://www.you.com/chat" class="link-card card">
+                        <div class="card-body">
+                            <h5 class="card-title">YouChat</h5>
+                            <p class="card-text text-dark">YouChat is a language model developed by You.com that aims to improve search functionality by providing easy-to-understand sentences as opposed to a list of links. It uses advanced conversational AI to provide natural-sounding responses to user queries.</p>
+                        </div>
+                    </a>
+                </a>
+                <a href="https://godmode.space/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">God Mode</h5>
+                        <p class="card-text text-dark">Explore the Power of Generative Agents.</p>
+                    </div>
+                </a>
+                <a href="https://www.typingmind.com/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">TypingMind</h5>
+                        <p class="card-text text-dark">A better UI for ChatGPT.</p>
+                    </div>
+                </a>
+                <a href="https://www.perplexity.ai/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">Perplexity AI</h5>
+                        <p class="card-text text-dark">Perplexity AI unlocks the power of knowledge with information discovery and sharing.</p>
+                    </div>
+                </a>
+                <a href="https://huggingface.co/spaces/Vision-CAIR/minigpt4" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">MiniGPT 4</h5>
+                        <p class="card-text text-dark"> MiniGPT-4 is an open source project that was posted on GitHub to demonstrate vision-language capabilities in an AI system.</p>
+                    </div>
+                </a>
+                <a href="https://monica.im/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">Monica</h5>
+                        <p class="card-text text-dark">Your ChatGPT Powered AI Assistant on All Websites.</p>
+                    </div>
+                </a>
+                <a href="https://callannie.ai/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">Call Annie</h5>
+                        <p class="card-text text-dark">Formerly known as Sam, your always available AI friend, even without internet. +1 (640) CALL-SAM (225-5726).</p>
+                    </div>
+                </a>
+                <a href="https://huberman.rile.yt/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">Huberman AI</h5>
+                        <p class="card-text text-dark">Use AI to explore the wisdom of The Huberman Lab.</p>
+                    </div>
+                </a>
+                <a href="https://consensus.app/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">Consensus</h5>
+                        <p class="card-text text-dark">Evidence based answers, powered by AI.</p>
+                    </div>
+                </a>
+                <a href="https://cat-gpt.com/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">Cat GPT</h5>
+                        <p class="card-text text-dark">Introducing CatGPT, the meowst sassy, all-knowing system powered by OpenAI.</p>
+                    </div>
+                </a>
+                <a href="https://agentgpt.reworkd.ai/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">AgentGPT</h5>
+                        <p class="card-text text-dark">AgentGPT allows you to configure and deploy Autonomous AI agents. Name your custom AI and have it embark on any goal imaginable. It will attempt to reach the goal by thinking of tasks to do, executing them, and learning from the results. Essentially, AutoGPT.</p>
+                    </div>
+                </a>
+                <a href="https://www.chaingpt.org/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">ChainGPT</h5>
+                        <p class="card-text text-dark">Your personal expert in all crypto & blockchain-related topics.                    </p>
+                    </div>
+                </a>
+                <a href="https://seovendor.co/seo-gpt/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">SEO GPT</h5>
+                        <p class="card-text text-dark">Original content written to pass AI detectors. New marketing content types added all the time. Keyword-optimized, naturally semantic writing, developed from 15+ years of SEO and marketing experience. It's completely free. What is not to like?             </p>
+                    </div>
+                </a>
+            </div>    
+        </div>
+
+
+
+        <div class="row">
+            <h3 class="category-header">Prompt Libraries</h3>
+            <div class="d-flex flex-wrap">
+                <a href="https://snackprompt.com/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">Snack Prompt</h5>
+                        <p class="card-text text-dark"> Tons of prompts for GPT that are updated frequently.                       </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="row">
+            <h3 class="category-header">Business Productivity</h3>
+            <div class="d-flex flex-wrap">
+                <a href="https://gamma.app/generate" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">Gamma</h5>
+                        <p class="card-text text-dark">A new medium for presenting ideas, powered by AI. Create beautiful, engaging content with none of the formatting and design work.</p>
+                    </div>
+                </a>
+                <a href="https://myaifrontdesk.com/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">My AI Frontdesk</h5>
+                        <p class="card-text text-dark">The AI-receptionist that never sleeps. A virtual receptionist software for small businesses to automate scheduling and Q&A over the phone. </p>
+                    </div>
+                </a>
+                <a href="https://tldv.io/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">TLDV</h5>
+                        <p class="card-text text-dark">The meeting recorder that transcribes & summarizes your calls with customers, prosepcts, and your team. </p>
+                    </div>
+                </a>
+                <a href="https://doclime.com/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">DocLime</h5>
+                        <p class="card-text text-dark">Say goodbye to manual document search and get answers within seconds. Answers. Citations. And More. </p>
+                    </div>
+                </a>
+                <a href="https://adcopy.ai/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">Ad Copy</h5>
+                        <p class="card-text text-dark">The first AI copy tool built to drive more clicks and conversions for digital advertisers is here.</p>
+                    </div>
+                </a>
+                <a href="https://rationale.jina.ai/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">Rationale</h5>
+                        <p class="card-text text-dark">A revolutionary AI to assist business owners, managers, and individuals in making tough decisions.</p>
+                    </div>
+                </a>
+                <a href="https://www.poised.com/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">Poised</h5>
+                        <p class="card-text text-dark">Through the power of AI, Poised provides actionable communication guidance so you can influence and inspire. Private and secure feedback that only you can see. For Mac and Windows.</p>
+                    </div>
+                </a>
+                <a href="https://www.taskade.com/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">Taskade</h5>
+                        <p class="card-text text-dark">Taskade AI is a powerful AI productivity tool that will help you efficiently take notes, manage tasks and projects, and collaborate and communicate with your team. Build a second brain now!</p>
+                    </div>
+                </a>
+                <a href="https://www.decktopus.com/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">Decktopus</h5>
+                        <p class="card-text text-dark">World's #1 AI-Powered Presentation Generator.</p>
+                    </div>
+                </a>
+                <a href="https://krisp.ai/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">Krisp AI</h5>
+                        <p class="card-text text-dark">Supercharge your online meetings with Voice Productivity AI. Krisp imporves the productivity of online meetings with AI-powered voice clarity and meeting assistants.</p>
+                    </div>
+                </a>
+                <a href="https://www.descript.com/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">DeScript</h5>
+                        <p class="card-text text-dark">There is a new way to make video and podcasts. A good way. The DeScript Way.</p>
+                    </div>
+                </a>
+                <a href="https://www.notion.so/product/ai" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">Notion AI</h5>
+                        <p class="card-text text-dark">Access the limitless power of AI, right inside Notion. Work faster. Automate tedious tasks. Think bigger.</p>
+                    </div>
+                </a>
+                <a href="https://www.beautiful.ai/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">Beautiful AI</h5>
+                        <p class="card-text text-dark">Start your presentation inspired. Look, we made it easy. Smart templates give your team a blueprint for making presentations. The modern ones that customers love.</p>
+                    </div>
+                </a>
+                <a href="https://www.heygen.com/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">HeyGen</h5>
+                        <p class="card-text text-dark">Meet HeyGen - The best AI video generation platform for your team.</p>
+                    </div>
+                </a>
+                <a href="https://designer.microsoft.com/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">Microsoft Designer</h5>
+                        <p class="card-text text-dark">Stunning designs, made lightning fast with AI.</p>
+                    </div>
+                </a>
+                <a href="https://eightify.app/welcome" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">Eightify</h5>
+                        <p class="card-text text-dark"> Save time in your day by summarizing YouTube Videos. Yes, even Joe Rogan Podcasts.</p>
+                    </div>
+                </a>
+                <a href="https://generate.nextatlas.com/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">Generate (Nextatlas)</h5>
+                        <p class="card-text text-dark"> The first generative trend forecasting service powered by large language models and the Nextatlas engine.</p>
+                    </div>
+                </a>
+                <a href="https://cyte.io/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">Cyte</h5>
+                        <p class="card-text text-dark">Cyte was built so we could work easier. Cyte gives you the ability to search your entire digital history from your desktop apps to your browser usage.</p>
+                    </div>
+                </a>
+                <a href="https://www.documentpro.ai/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">Document Pro AI</h5>
+                        <p class="card-text text-dark">Effortlessly extract invoices to CSV</p>
+                    </div>
+                </a>
+                <a href="https://www.delete.bg/aistudio" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">Blend Studio</h5>
+                        <p class="card-text text-dark">Sell more with beautiful product designs crafted with AI.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        
+        <div class="row">
+            <h3 class="category-header">Finance</h3>
+            <div class="d-flex flex-wrap">
+                <a href="https://www.stratosphere.io/dashboard/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">Stratosphere</h5>
+                        <p class="card-text text-dark">AI portfolio analyzer - Predecssor of FinChat.                        </p>
+                    </div>
+                </a>
+                <a href="https://finchat.io/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">FinChat</h5>
+                        <p class="card-text text-dark">Finchat is the ChatGPT for Finance. Using AI, FinChat generates answers to questions about public companies and investors.</p>
+                    </div>
+                </a>
+                <a href="https://www.chainintel.info/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">ChainIntelGPT</h5>
+                        <p class="card-text text-dark">Raise capital quickly and easily with crowdfunding. Ask friends and family for donations in exchange for rewards and use it to launch a project or business.</p>
+                    </div>
+                </a>
+                <a href="https://pinklion.xyz/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">Pink Lion</h5>
+                        <p class="card-text text-dark">AI based financial reasoning to make you a better investor — Have your stocks, ETFs, funds & crypto investments under control.</p>
+                    </div>
+                </a>
+                <a href="https://app.hypeindex.com/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">Hype Index</h5>
+                        <p class="card-text text-dark">Unlock the power of the cloud with cloud computing. Access data and applications from anywhere, anytime. Efficiently store and manage data with cost-effective solutions.</p>
+                    </div>
+                </a>                
+                <a href="https://raizer.app/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">Raizer</h5>
+                        <p class="card-text text-dark">Grow your business faster with Raizer's AI-powered investor data. Find the best potential investors for your project and get them on board quickly.</p>
+                    </div>
+                </a>
+                <a href="https://gorillaterminal.com/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">GorillaTerminal AI</h5>
+                        <p class="card-text text-dark">Gain insights into stock and industry analysis quickly with Gorilla Terminal's proprietary technology. Reduce manual effort, uncover insights, and make more informed decisions with advanced algorithms and sophisticated analysis tools.</p>
+                    </div>
+                </a>
+                <a href="https://zerotax.ai/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">ZeroTax AI</h5>
+                        <p class="card-text text-dark">Get accurate and reliable tax advice on demand with TaxGPT. Our experienced tax professionals provide personalized advice so you can trust you're getting best results. Perfect for busy professionals and business owners.</p>
+                    </div>
+                </a>
+                <a href="https://finsheet.io/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">Finsheet</h5>
+                        <p class="card-text text-dark">Make informed decisions and maximize returns with Finsheet's proprietary technology and extensive research capabilities.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="row">
+            <h3 class="category-header">Career</h3>
+            <div class="d-flex flex-wrap">
+                <a href="https://www.kickresume.com/en/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">Kick Resume</h5>
+                        <p class="card-text text-dark">Create a beautiful resume quickly with the help of artificial intelligence and our customizable templates. Impress your future employer with a perfect resume created in minutes.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="row">
+            <h3 class="category-header">Art</h3>
+            <div class="d-flex flex-wrap">
+                <a href="https://labs.openai.com/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">DALL-E</h5>
+                        <p class="card-text text-dark">DALL-E is an AI language model that generates images from text descriptions, including objects and scenes that don't exist in reality.</p>
+                    </div>
+                </a>
+                <a href="https://www.bluewillow.ai/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">BlueWillow</h5>
+                        <p class="card-text text-dark">From logos, landscapes and characters to digital artwork,  just describe the image you want and our AI image generating tool will create the perfect graphic for your project. It is all FREE.</p>
+                    </div>
+                </a>
+                <a href="https://www.kittl.com/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">Kittl</h5>
+                        <p class="card-text text-dark">Speed up your workflows with Kittl's AI-powered design tools and gain instant access to a ton of stunning illustrations, fonts, photos, icons, and textures.</p>
+                    </div>
+                </a>
+                <a href="https://spline.design/ai" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">Spline AI</h5>
+                        <p class="card-text text-dark">The power of AI is coming to the 3rd dimension. Generate objects, animations, and textures using prompts.</p>
+                    </div>
+                </a>
+                <a href="https://stockimg.ai/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">StockIMG AI</h5>
+                        <p class="card-text text-dark">AI image generation for teams - You can easily generate AI logo, AI book covers, AI posters and more.</p>
+                    </div>
+                </a>  
+                <a href="https://clipdrop.co/stable-diffusion" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">Stable Diffuison</h5>
+                        <p class="card-text text-dark">Generate images from text.</p>
+                    </div>
+                </a>
+                <a href="https://boomy.com/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">Boomy</h5>
+                        <p class="card-text text-dark"> Make original songs in seconds, even if you've never made music before. Submit your songs to streaming platforms and get paid when people listen. Join a global community of artists empowered by Boomy AI.</p>
+                    </div>
+                </a>
+                <a href="https://rapli.co/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">Rapli</h5>
+                        <p class="card-text text-dark">Suprise everyone you know with unique AI rap. Rap about anything!.</p>
+                    </div>
+                </a>
+                <a href="https://dreamstudio.ai/generate" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">DreamStudio AI</h5>
+                        <p class="card-text text-dark">DreamStudio is an easy-to-use interface for creating images.</p>
+                    </div>
+                </a>
+                <a href="https://www.midjourney.com/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">Midjourney</h5>
+                        <p class="card-text text-dark">Midjourney is an independent research lab exploring new mediums of thought and expanding the imaginative powers of the human species. Generate the best art today.</p>
+                    </div>
+                </a>
+                <a href="https://leonardo.ai/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">Leonardo AI</h5>
+                        <p class="card-text text-dark">Unleash your creative spirit with Leonardo.Ai: AI-driven platform that revolutionizes the creative process by enabling users to quickly and easily create complex 3D visuals.</p>
+                    </div>
+                </a>
+                <a href="https://www.mage.space/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">Mage Space</h5>
+                        <p class="card-text text-dark">Mage is an incredibly simple and fun platform that provides 50+ top, custom Text-to-Image AI models as well as Text-to-GIF for consumers to create personalized content, unlimited & unfiltered.</p>
+                    </div>
+                </a>
+            </div>
+        </div>  
+
+        <div class="row">
+            <h3 class="category-header">Coding</h3>
+            <div class="d-flex flex-wrap">
+                <a href="https://cyte.io/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">The Forge AI</h5>
+                        <p class="card-text text-dark">The Forge empowers everyone to easily create and monetize powerful AI-based applications. Whether you want to build them for personal use, share with your friends and colleagues or even monetize them on our marketplace.</p>
+                    </div>
+                </a>
+                <a href="https://hocoos.com/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">Hocoos</h5>
+                        <p class="card-text text-dark">Our AI website builder creates business ready websites in minutes, complete with useful text, design, & images. Just answer 8 quick questions and your free website is ready to go! </p>
+                    </div>
+                </a>
+                <a href="https://designer.microsoft.com/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">Stunning</h5>
+                        <p class="card-text text-dark">Build websites with AI.</p>
+                    </div>
+                </a>
+                <a href="https://www.safurai.com/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">Safurai</h5>
+                        <p class="card-text text-dark">Safurai is the AI Code Assistant that saves you time in changing, optimizing, and searching code. Faster, Safer, and Easier.</p>
+                    </div>
+                </a>
+                <a href="https://codesquire.ai/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">CodeSquire AI</h5>
+                        <p class="card-text text-dark">Turn thoughts into code. AI code writing assistant for data scientists, engineers, and analysts. Get code completions and suggestions as you type. </p>
+                    </div>
+                </a>
+                <a href="https://useadrenaline.com/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">Adrenaline</h5>
+                        <p class="card-text text-dark">Understand your code with AI. Stop using Stack Overflow for help. Talk directly to your codebase like you would an expert.</p>
+                    </div>
+                </a>
+                <a href="https://durable.co/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">Durable</h5>
+                        <p class="card-text text-dark">The AI website builder that generates an entire website with images and copy in seconds. </p>
+                    </div>
+                </a>
+                <a href="https://uncody.com/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">Uncody</h5>
+                        <p class="card-text text-dark">Create stunning landing pages that convert with Uncody'sintuitive interface and modular components. Build a professional-looking page in no time and impress your visitors.                        </p>
+                    </div>
+                </a>
+                <a href="https://uizard.io/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">Uizard</h5>
+                        <p class="card-text text-dark">Create apps, websites, and more within minutes. Visualize and communicate your ideas effortlessly. No design experience needed.                        </p>
+                    </div>
+                </a>
+                <a href="https://weld.app/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">Weld</h5>
+                        <p class="card-text text-dark"> AI assistant for SQL. Connect over hundred different databases including, but not limited to, Shopify, Facebook Ads, and Stripe Payments.                       </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="row">
+            <h3 class="category-header">Writing</h3>
+            <div class="d-flex flex-wrap">
+                <a href="https://www.compose.ai/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">Compose AI</h5>
+                        <p class="card-text text-dark">Compose AI is a Chrome extension that cuts your writing time by 40% with AI-powered autocompletion & text generation.</p>
+                    </div>
+                </a>
+                <a href="https://pro.wondercraft.ai/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">Wondercraft AI</h5>
+                        <p class="card-text text-dark">Where we bring your words to life! Turn blog posts, articles, or any written content into engaging, studio quality podcasts in seconds. Choose a host and music, and let the wonders happen.</p>
+                    </div>
+                </a>
+                <a href="https://www.ghostwrite.rip/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">GhostWrite</h5>
+                        <p class="card-text text-dark">From small talk to big asks, we got you covered. Enter the specifics of what you need to say and let us do the talking for you. </p>
+                    </div>
+                </a>
+        </div>
+
+        <div class="row">
+            <h3 class="category-header">APIs</h3>
+            <div class="d-flex flex-wrap">
+                <a href="https://platform.openai.com/account/api-keys" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">OpenAI API</h5>
+                    </div>
+                </a>
+                <a href="https://deepgram.com/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">Deepgram</h5>
+                        <p class="card-text text-dark">The most powerful speech-to-text API.</p>
+                    </div>
+                </a>
+                <a href="https://replicate.com/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">Replicate</h5>
+                        <p class="card-text text-dark">An API for image enhancement, photo restoration, text-to-image, image-to-text, video creation and editing, and language model generation.</p>
+                    </div>
+                </a>
+            </div>    
+        </div>
+
+        <div class="row">
+            <h3 class="category-header">Education</h3>
+            <div class="d-flex flex-wrap">
+                <a href="https://quizgecko.com/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">QuizGecko</h5>
+                        <p class="card-text text-dark"> Stop wasting time manually creating quizzes. Create and share your questions, flashcards, and notes instantly, from any text.</p>
+                    </div>
+                </a>
+            </div>    
+        </div>
+
+        <div class="row">
+            <h3 class="category-header"> Social Media</h3>
+            <div class="d-flex flex-wrap">
+                <a href="https://postwise.ai/" class="link-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">PostWise</h5>
+                        <p class="card-text text-dark">Write Viral Tweets in seconds. Craft engaging posts with AI, schedule effortlessly, and watch your followers grow.</p>
+                    </div>
+                </a>
+        </div>
+
+        <div class="row">
+            <h3 class="category-header"> Other (For Fun)</h3>
+            <div class="d-flex flex-wrap">
+            <a href="https://www.babaselo.com/feed" class="link-card card">
+                <div class="card-body">
+                    <h5 class="card-title">BabaSelo</h5>
+                    <p class="card-text text-dark"> Baba Selo combines the warmth of Babushka's love with cutting-edge AI technology to help you craft delicious, unique recipes for a delightful culinary experiences.</p>
+                </div>
+            </a>
+            <a href="https://tripnotes.ai/app" class="link-card card">
+                <div class="card-body">
+                    <h5 class="card-title">TripNotes</h5>
+                    <p class="card-text text-dark">Tripnotes is a travel planner that uses a custom recommendation engine, their own data, and GPT to help travelers find the right places to go.</p>
+                </div>
+            </a>
+        </div>
+
+
+
+        <div class="row">
+            <h3 class="category-header"> Newsletters</h3>
+            <div class="d-flex flex-wrap">
+            <a href="https://www.theaivalley.com/" class="link-card card">
+                <div class="card-body">
+                    <h5 class="card-title">The AI Valley</h5>
+                    <p class="card-text text-dark"> Join 50,000+ people discovering New AI Tools, Useful Prompts, and Latest AI Developments | Read by professionals from Google, OpenAI, Notion, Apple.                        </p>
+                </div>
+            </a>
+            <a href="https://supertools.therundown.ai/" class="link-card card">
+                <div class="card-body">
+                    <h5 class="card-title">The Rundown: Super tools</h5>
+                    <p class="card-text text-dark"> Supertools by The Rundown makes it easier for you to find the best AI resources. Featuring all the top tools mentioned for the fastest-growing AI newsletter.                         </p>
+                </div>
+            </a>
+            <a href="https://www.producthunt.com/newsletter?ref=header_nav" class="link-card card">
+                <div class="card-body">
+                    <h5 class="card-title">Product Hunt </h5>
+                    <p class="card-text text-dark"> Product Hunt is a curation of the best new products, every day. Discover the latest mobile apps, websites, and technology products that everyone is talking about.</p>
+                </div>
+            </a>
+        </div>
+
+    </div>
+
+
+        <footer class="footer-container">
+            <div class="container text-center">
+                <div class="social-icons mb-4">
+                    <a href="https://twitter.com/JackieWilson00" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                    <a href="https://linkedin.com/in/jackiewwilson/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.github.com/thejackiewilson/" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                </div>
+                <div class="copyright-text">
+                    © 2023 Copyright: <a href="https://linktr.ee/jackiewwilson">AI Tools Curator Created By Jackie Wilson</a>
+                </div>
+            </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>        
+        <script src="main.js"></script>
+  </div>
+</div>
+</body>
+
+</html>
