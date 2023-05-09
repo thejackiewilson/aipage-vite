@@ -133,13 +133,13 @@ a:hover {
 }
 
 .dark-mode-toggle{
-  background-color: blue;
+  background-color: white;
   color: #f0f2f5;
 }
 
 .dark-mode .navbar,
 .dark-mode .footer-container {
-  background-color: black;
+  background-color: #ED7117;
 }
 
 .dark-mode a {
@@ -159,8 +159,12 @@ a:hover {
 }
 
 body.dark-mode {
-  background-color: #333;
+  background-color: #555;
   color: #f0f2f5;
+}
+
+.dark-mode .card.card-body {
+  background-color: #333;
 }
 
 body.dark-mode .link-card {
@@ -203,4 +207,11 @@ button.Win11.custom-dark-mode:active {
 
 }
 
+.row {
+  padding: 2%;
+}
 
+.btn.btn-primary{
+  background-color: #ED7117;
+  border: black;
+}
