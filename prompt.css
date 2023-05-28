@@ -1,0 +1,106 @@
+/* prompts.css */
+
+#prompt-listing {
+    padding: 2rem 0;
+  }
+  
+  .card {
+    transition: box-shadow .3s;
+  }
+  
+  .card h5 {
+    color: black;
+  }
+
+  .card p {
+    color: black;
+  }
+
+  .card:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  }
+  
+  .copy-prompt-btn {
+    background-color: #ED7117;
+    border: none;
+    color: white;
+    transition: background-color .3s;
+  }
+  
+  .copy-prompt-btn:hover {
+    background-color: #bf5a15;
+  }
+  
+  @media (min-width: 768px) {
+    .link-card {
+      max-width: 350px;
+    }
+  
+    .card-container .card {
+      width: auto;
+    }
+  }
+  
+  .dark-mode-toggle{
+    background-color: white;
+    color: #f0f2f5;
+  }
+  
+  .dark-mode .navbar,
+  .dark-mode .footer-container {
+    background-color: #ED7117;
+  }
+  
+  .dark-mode a {
+    color: #f0f2f5;
+  }
+  
+  .dark-mode a:hover {
+    color: #007bff;
+  }
+  
+  .dark-mode h3 {
+    color: #f0f2f5;
+  }
+  
+  .dark-mode .link-card {
+    background-color: #444;
+  }
+  
+  body.dark-mode {
+    background-color: #555;
+    color: #f0f2f5;
+  }
+  
+  .dark-mode .card.card-body {
+    background-color: #333;
+  }
+  
+  body.dark-mode .link-card {
+    background-color: #444;
+    color: #f0f2f5;
+  }
+  
+  button.Win11.custom-dark-mode {
+    background: #555;
+    border-color: #333;
+    color: #fff;
+    margin-left: 50px;
+    display: flex;
+  }
+  
+  button.Win11.custom-dark-mode:hover {
+    transition-duration: 0.4s;
+    background: #07a;
+    border-color: #057;
+    margin-left: 50px;
+    display: flex;
+  }
+  
+  button.Win11.custom-dark-mode:active {
+    transition-duration: 0s;
+    background: #068;
+    border-color: #045;
+    margin-left: 50px;
+    display: flex;
+  }
