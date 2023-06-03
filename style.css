@@ -1,7 +1,3 @@
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
-
 
 body {
   font-family: Arial, sans-serif;
@@ -11,43 +7,38 @@ body {
   padding: 0;
 }
 
+ .card-container .card {
+    width: auto;
+}
 h3 {
   font-weight: 700;
   color: #2e3c5a;
 }
-
 a {
   color: #2e3c5a;
   text-decoration: none;
 }
-
 a:hover {
   color: #007bff;
   text-decoration: none;
 }
-
 .navbar {
   background-color: #2e3c5a;
 }
-
 .navbar a {
   color: white;
 }
-
 .navbar a:hover {
   color: #007bff;
 }
-
 .navbar-nav {
  margin-bottom: 0%;
 }
-
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
 }
-
 .category-header {
   font-size: 24px;
   margin-top: 40px;
@@ -56,7 +47,6 @@ a:hover {
   display: inline-block;
   padding-bottom: 5px;
 }
-
 .link-card {
   background-color: #fff;
   border-radius: 5px;
@@ -65,12 +55,10 @@ a:hover {
   max-width: 100%;
   width: 100%;
 }
-
 .link-card:hover {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   text-decoration: none;
 }
-
 .card-container {
   display: flex;
   flex-wrap: wrap;
@@ -79,24 +67,20 @@ a:hover {
   padding: 25px;
   margin-bottom: 50px;
 }
-
 .card-container .card {
   display: flex;
   flex-wrap: wrap;
   margin: 10px;
   width: 100%;
 }
-
 .site-wrapper {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
-
 .main-content {
   flex-grow: 1;
 }
-
 .footer-container {
   background-color: #ED7117;
   padding: 2rem 0;
@@ -104,79 +88,60 @@ a:hover {
   width: 100%;
   bottom: 0;
 }
-
 .social-icons a {
   color: white;
   font-size: 1.5rem;
   margin: 0 0.5rem;
   transition: color 0.3s;
 }
-
 .social-icons a:hover {
   color: #007bff;
   text-decoration: none;
 }
-
 .copyright-text {
   padding: 1rem;
   font-size: 0.9rem;
   color: white;
 }
-
 .copyright-text a {
   color: white;
 }
-
 @media (min-width: 768px) {
   .link-card {
     max-width: 350px;
-  }
 
-  .card-container .card {
-    width: auto;
-  }
 }
-
 .dark-mode-toggle{
   background-color: white;
   color: #f0f2f5;
 }
-
 .dark-mode .navbar,
 .dark-mode .footer-container {
   background-color: #ED7117;
 }
-
 .dark-mode a {
   color: #f0f2f5;
 }
-
 .dark-mode a:hover {
   color: #007bff;
 }
-
 .dark-mode h3 {
   color: #f0f2f5;
 }
-
 .dark-mode .link-card {
   background-color: #444;
 }
-
 body.dark-mode {
   background-color: #555;
   color: #f0f2f5;
 }
-
 .dark-mode .card.card-body {
   background-color: #333;
 }
-
 body.dark-mode .link-card {
   background-color: #444;
   color: #f0f2f5;
 }
-
 button.Win11.custom-dark-mode {
   background: #555;
   border-color: #333;
@@ -184,7 +149,6 @@ button.Win11.custom-dark-mode {
   margin-left: 50px;
   display: flex;
 }
-
 button.Win11.custom-dark-mode:hover {
   transition-duration: 0.4s;
   background: #07a;
@@ -192,7 +156,6 @@ button.Win11.custom-dark-mode:hover {
   margin-left: 50px;
   display: flex;
 }
-
 button.Win11.custom-dark-mode:active {
   transition-duration: 0s;
   background: #068;
@@ -200,7 +163,6 @@ button.Win11.custom-dark-mode:active {
   margin-left: 50px;
   display: flex;
 }
-
 .nav-links {
   position: relative;
   justify-content: center;
@@ -209,32 +171,25 @@ button.Win11.custom-dark-mode:active {
   flex-direction: column;
   flex-wrap: wrap;
   transition: all;
-
 }
-
 .row {
   padding: 2%;
 }
-
 .btn.btn-primary{
   background-color: #ED7117;
   border: black;
 }
-
 body.dark-mode .card-title,
 body.dark-mode .card-text {
   color: #fff;
 }
-
 body.dark-mode .category-header {
   border-color: #fff;
 }
-
 body .card-title,
 body .card-text {
   color: #2e3c5a;
 }
-
 body .category-header {
   border-color: #2e3c5a;
 }
